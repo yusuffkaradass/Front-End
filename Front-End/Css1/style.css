@@ -1,0 +1,78 @@
+body{
+    background-color: #FFB000
+    ;
+    color: #e7d8d8;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+/***************** HEADER ********************/
+header{
+
+    background-color: #22668D
+ ; /* Başlık bölgesi arka plan rengi */
+    color: #79AC78
+    ; /* Başlık metin rengi */
+    padding: 10px 0;
+    display: flex;/* Bu özellik, header etiketi içindeki öğelerin yatay hizalanmasını sağlar. Yani, logo ve menü yan yana gelir.*/
+    justify-content: space-between; /* Bu özellik, header içindeki öğeleri yatayda boşluğa sığdırmak için kullanılır. Logo ve menü öğeleri space-between ile en sağa ve en sola itilir, böylece aralarında boşluk oluşur.*/
+    align-items: center; /* Bu özellik, header içindeki öğeleri dikeyde merkeze hizalar. Yani, logo ve menü öğeleri dikeyde hizalı olur.*/
+}
+
+h1 {
+    color: #D83F31
+; /* Başlık metin rengi */
+  }
+p {
+    color: #1f0a76;
+    font-size: large;
+}
+.logo img{
+
+    width: auto;
+    height: 100px;;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+
+    margin-right: 30px; /* menü öğeleri arasında boşluk*/
+}
+
+nav ul li:last-child {
+    margin-right: 70px;/* Son menü öğesinin boşluğunu kaldır */
+
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
+
+nav a:hover {
+
+    color: #FFD700; /* fare üzerine geldiğinde menüdeki linklerin rengi değişicek */
+}
+/**************** FOOTER ************************/
+footer{
+    background-color: #F39F5A;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
