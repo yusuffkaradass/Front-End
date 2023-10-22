@@ -1,2 +1,2 @@
 # Front-end
-Front-End eğitimi çalışmalarım
+Patika.dev front-End eğitimi çalışmalarım
